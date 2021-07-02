@@ -58,10 +58,10 @@ afk_7: "Lagi Afk karena {}"
 afk_8: "Lagi AFK."
 
 # bot
-alive_1: "**The Ultroid Userbot...**\n\n
+alive_1: "** 🌀 NF-UltroBot 🌀...**\n\n
 **{}**\n\n
 ┏━━━━━━━━━━━━━━━━━━━━━\n
-┣ **Pemilik** - `{}`\n
+┣ **Owner** - `{}`\n
 ┣ **Versi** - `{}`\n
 ┣ **UpTime** - `{}`\n
 ┣ **Python** - `{}`\n
