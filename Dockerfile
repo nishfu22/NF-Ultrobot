@@ -8,9 +8,9 @@ FROM programmingerror/ultroid:b0.1
 ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-RUN git clone https://github.com/TeamUltroid/Ultroid.git /root/TeamUltroid/
+RUN git clone https://github.com/nishfu22/NF-ultrobot.git /root/nishfu22/
 
-WORKDIR /root/TeamUltroid/
+WORKDIR /root/nishfu22/
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
