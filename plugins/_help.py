@@ -26,7 +26,7 @@ async def ult(ult):
                 output = f"**Plugin** - `{plug}`\n"
                 for i in HELP[plug]:
                     output += i
-                output += "\n© @TeamUltroid"
+                output += "\n🌀 @kutipankitaa"
                 await eor(ult, output)
             elif plug in CMD_HELP:
                 kk = f"Plugin Name-{plug}\n\n✘ Commands Available -\n\n"
@@ -38,7 +38,7 @@ async def ult(ult):
                     for d in LIST[plug]:
                         x += HNDLR + d
                         x += "\n"
-                    x += "\n© @TeamUltroid"
+                    x += "\n🌀 @kutipankitaa"
                     await eor(ult, x)
                 except BaseException:
                     await eod(ult, get_string("help_1").format(plug), time=5)
