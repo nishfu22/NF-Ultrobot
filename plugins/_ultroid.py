@@ -12,10 +12,10 @@ from telethon.errors.rpcerrorlist import BotMethodInvalidError as bmi
 from . import *
 
 REPOMSG = (
-    "• **ULTROID USERBOT** •\n\n",
+    "🌀 **ULTROID USERBOT** 🌀\n\n",
     "• Repo - [Click Here](https://github.com/nishfu22/NF-ultrobot)\n",
     "• Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)\n",
-    "• Support - @UltroidSupport",
+    "• Support - @kutipankitaa",
 )
 
 
