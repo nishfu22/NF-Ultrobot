@@ -59,10 +59,10 @@ _main_help_menu = [
 
 SUP_BUTTONS = [
     [
-        Button.url("Repo", url="https://github.com/TeamUltroid/Ultroid"),
+        Button.url("Repo", url="https://github.com/nishfu22/NF-ultrobot"),
         Button.url("Addons", url="https://github.com/TeamUltroid/UltroidAddons"),
     ],
-    [Button.url("Support", url="t.me/UltroidSupport")],
+    [Button.url("Support", url="t.me/HappyZgameBot")],
 ]
 
 # --------------------BUTTONS--------------------#
@@ -73,7 +73,7 @@ SUP_BUTTONS = [
 async def inline_alive(o):
     if len(o.text) == 0:
         b = o.builder
-        MSG = "• **Ultroid Userbot •**"
+        MSG = "• **🌀NF-ultrobot🌀 •**"
         uptime = grt(time.time() - start_time)
         MSG += f"\n\n• **Uptime** - `{uptime}`\n"
         MSG += f"• **OWNER** - `{OWNER_NAME}`"
