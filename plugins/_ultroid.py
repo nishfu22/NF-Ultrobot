@@ -13,9 +13,9 @@ from . import *
 
 REPOMSG = (
     "🌀 **NF-UltroBot** 🌀\n\n",
-    "• Repo - [Click Here](https://github.com/nishfu22/NF-ultrobot)\n",
-    "• Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)\n",
-    "• Support - @kutipankitaa",
+    "🌀 Repo - [Click Here](https://github.com/nishfu22/NF-ultrobot)\n",
+    "🌀 Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)\n",
+    "🌀 Support - @kutipankitaa",
 )
 
 
