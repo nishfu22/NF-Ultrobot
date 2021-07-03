@@ -44,17 +44,17 @@ else:
 
 _main_help_menu = [
     [
-        Button.inline("• Pʟᴜɢɪɴs", data="hrrrr"),
-        Button.inline("• Aᴅᴅᴏɴs", data="frrr"),
+        Button.inline("🌀 Pʟᴜɢɪɴs", data="hrrrr"),
+        Button.inline("🌀 Aᴅᴅᴏɴs", data="frrr"),
     ],
     [
-        Button.inline("Oᴡɴᴇʀ•ᴛᴏᴏʟꜱ", data="ownr"),
-        Button.inline("Iɴʟɪɴᴇ•Pʟᴜɢɪɴs", data="inlone"),
+        Button.inline("Oᴡɴᴇʀ🌀ᴛᴏᴏʟꜱ", data="ownr"),
+        Button.inline("Iɴʟɪɴᴇ🌀Pʟᴜɢɪɴs", data="inlone"),
     ],
     [
         Button.url("⚙️Sᴇᴛᴛɪɴɢs⚙️", url=f"https://t.me/{asst.me.username}?start=set"),
     ],
-    [Button.inline("••Cʟᴏꜱᴇ••", data="close")],
+    [Button.inline("🌀🌀Cʟᴏꜱᴇ🌀🌀", data="close")],
 ]
 
 SUP_BUTTONS = [
@@ -73,10 +73,10 @@ SUP_BUTTONS = [
 async def inline_alive(o):
     if len(o.text) == 0:
         b = o.builder
-        MSG = "• **🌀NF-ultrobot🌀 •**"
+        MSG = "🌀 **NF-ultrobot ** 🌀"
         uptime = grt(time.time() - start_time)
-        MSG += f"\n\n• **Uptime** - `{uptime}`\n"
-        MSG += f"• **OWNER** - `{OWNER_NAME}`"
+        MSG += f"\n\n🌀 **Uptime** - `{uptime}`\n"
+        MSG += f"🌀 **OWNER** - `{OWNER_NAME}`"
         WEB0 = InputWebDocument(
             "https://telegra.ph/file/55dd0f381c70e72557cb1.jpg", 0, "image/jpg", []
         )
@@ -175,12 +175,12 @@ async def setting(event):
         link_preview=False,
         buttons=[
             [
-                Button.inline("•Pɪɴɢ•", data="pkng"),
-                Button.inline("•Uᴘᴛɪᴍᴇ•", data="upp"),
+                Button.inline("🌀Pɪɴɢ🌀", data="pkng"),
+                Button.inline("🌀Uᴘᴛɪᴍᴇ🌀", data="upp"),
             ],
             [
-                Button.inline("•Rᴇsᴛᴀʀᴛ•", data="rstrt"),
-                Button.inline("•Uᴘᴅᴀᴛᴇ•", data="doupdate"),
+                Button.inline("🌀Rᴇsᴛᴀʀᴛ🌀", data="rstrt"),
+                Button.inline("🌀Uᴘᴅᴀᴛᴇ🌀", data="doupdate"),
             ],
             [Button.inline("« Bᴀᴄᴋ", data="open")],
         ],
