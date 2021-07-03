@@ -1,4 +1,4 @@
-# Ultroid - UserBot
+# NF - UltroBot
 # Copyright (C) 2021 TeamUltroid
 #
 # This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
@@ -64,15 +64,15 @@ async def ult(ult):
                 ),
                 buttons=[
                     [
-                        Button.inline("• Pʟᴜɢɪɴs", data="hrrrr"),
-                        Button.inline("• Aᴅᴅᴏɴs", data="frrr"),
+                        Button.inline("🌀 Pʟᴜɢɪɴs", data="hrrrr"),
+                        Button.inline("🌀 Aᴅᴅᴏɴs", data="frrr"),
                     ],
                     [
-                        Button.inline("Oᴡɴᴇʀ•ᴛᴏᴏʟꜱ", data="ownr"),
-                        Button.inline("Iɴʟɪɴᴇ•Pʟᴜɢɪɴs", data="inlone"),
+                        Button.inline("Oᴡɴᴇʀ🌀ᴛᴏᴏʟꜱ", data="ownr"),
+                        Button.inline("Iɴʟɪɴᴇ🌀Pʟᴜɢɪɴs", data="inlone"),
                     ],
                     [Button.url("⚙️Sᴇᴛᴛɪɴɢs⚙️", url=f"https://t.me/{bnn}?start=set")],
-                    [Button.inline("••Cʟᴏꜱᴇ••", data="close")],
+                    [Button.inline("🌀🌀Cʟᴏꜱᴇ🌀🌀", data="close")],
                 ],
             )
         except rep:
